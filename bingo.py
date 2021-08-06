@@ -63,7 +63,7 @@ else :
 
     for i in range(5):
         if (result[0][i] and result[1][i] and result[2][i] and result[3][i] and result[4][i]): bingo5x5 += 1
-        if (result[i][0] and result[i][1] and result[i][2] and result[i][3] and result[4][i]): bingo5x5 += 1
+        if (result[i][0] and result[i][1] and result[i][2] and result[i][3] and result[i][4]): bingo5x5 += 1
     if (result[0][0] and result[1][1] and result[2][2] and result[3][3] and result[4][4]): bingo5x5 += 1
     if (result[0][4] and result[1][3] and result[2][2] and result[3][1] and result[4][1]): bingo5x5 += 1
 
